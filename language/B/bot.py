@@ -63,4 +63,4 @@ class CoffeeBot(commands.Bot):
 			print('[{0}] Logged out'.format(constants.NAME))
 
 bot = CoffeeBot()
-bot.run(util.get_secret_key())
+bot.run(util.get_secret_key().strip())
