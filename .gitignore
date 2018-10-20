@@ -2,7 +2,10 @@
 **/__pycache__
 
 #me
-language/A	                    # not worth testing and pushing
-**/data                         # doesn't need to be in commits
-**/key.txt                      # just to be safe
-**/*.sh                         # startup scripts
+language/A# not worth testing and pushing
+# doesn't need to be in commits
+**/data
+# just to be safe
+**/key.txt
+# startup scripts
+**/*.sh
