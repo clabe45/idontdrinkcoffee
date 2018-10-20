@@ -4,7 +4,8 @@
 #me
 language/A# not worth testing and pushing
 # doesn't need to be in commits
-**/data
+**/data/*
+!**/data/wordlists
 # just to be safe
 **/key.txt
 # startup scripts
